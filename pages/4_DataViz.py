@@ -4,6 +4,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 import plotly.express as px
+import plotly.graph_objs as go
 
 # Define the URL to the CSV file
 url = "https://raw.githubusercontent.com/EfyaDufie2020/Customer-Churn-Analysis/main/Notebooks/Customer%20Churn%20Data.csv"
@@ -17,6 +18,7 @@ def load_data():
     except Exception as e:
         st.error(f"Error loading data: {e}")
         return pd.DataFrame()  # Return an empty DataFrame in case of error
+    
 
 # Load the data
 data = load_data()

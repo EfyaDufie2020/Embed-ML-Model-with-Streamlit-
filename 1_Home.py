@@ -120,10 +120,3 @@ address_button = st.markdown("""
 
 
 
-# Data Visualization
-            
-# st.sidebar.success("click any")
-# st.sidebar.title("Home")
-# st.sidebar.markdown ("DataLens")
-# st.sidebar.markdown ("DataViz")
-# st.sidebar.markdown ("Predict")
